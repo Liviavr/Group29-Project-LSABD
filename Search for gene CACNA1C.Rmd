@@ -5,8 +5,8 @@ date: "2026-11-26"
 ---
 
 ```{r setup, include=FALSE}
-counts <- read_csv("/Users/liviavackier/Documents/Master 1/Large Scala Analysis/Group project/GSE80655_counts.csv")
-metadata<- read_csv("/Users/liviavackier/Documents/Master 1/Large Scala Analysis/Group project/GSE80655_metadata.csv")
+counts <- read_csv("Data/GSE80655_counts.csv")
+metadata<- read_csv("Data/GSE80655_metadata.csv")
 ```
 
 ```{r}
